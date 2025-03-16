@@ -299,4 +299,5 @@ nav img{
 }
 .curved-box:hover{
     width: 95%;
+    box-shadow: rgba(255, 0, 0, 0.2);
 }
