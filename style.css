@@ -299,5 +299,18 @@ nav img{
 }
 .curved-box:hover{
     width: 95%;
-    box-shadow: rgba(255, 0, 0, 0.2);
+    background-color: bisque;
+    transition: 0.2s;
+}
+.blog_person:hover{
+    text-shadow: rgba(0, 0, 0, 0.2);
+    font-weight: 700;
+    
+}
+.box-image:hover{
+    transform: rotate(5deg);
+}
+.box-image_vertical_xl:hover{
+    transform: rotate(5deg);
+
 }
