@@ -280,8 +280,9 @@ nav img{
 }
 .blog_title{
     
-    padding-bottom: 5px;
-    padding-left: 45%;
+   align-items: center;
+   padding-bottom: 5px;
+
 }
 
 .box-image{
@@ -313,4 +314,30 @@ nav img{
 .box-image_vertical_xl:hover{
     transform: rotate(5deg);
 
+}
+.curved-box-abt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: wheat;
+    border-radius: 15px;
+    padding: 20px;
+    width: 50%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    margin-left: 16%;
+
+
+}
+.abt_title{
+    
+    align-items: center;
+    padding-bottom: 5px;
+}
+.bbs_img{
+    align-self: self-end;
+}
+.abt-us-1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
