@@ -341,6 +341,7 @@ nav img{
     align-items: center;
     gap: 10px;
 }
+/* Portrait Mode (Show Message) */
 @media screen and (max-width: 768px) and (orientation: portrait) {
     body {
         overflow: hidden;
@@ -358,7 +359,7 @@ nav img{
         left: 0;
         width: 100vw;
         height: 100vh;
-        background: rgba(0, 0, 0, 0.8); /* Semi-transparent overlay */
+        background: rgba(0, 0, 0, 0.8);
         color: white;
         font-size: 18px;
         text-align: center;
@@ -366,13 +367,11 @@ nav img{
     }
 }
 
+/* Landscape Mode (Completely Remove Message) */
 @media screen and (max-width: 768px) and (orientation: landscape) {
     .force-landscape-message {
-        display: none;
-    }
-}
-@media screen and (max-width: 768px) and (orientation: landscape) {
-    .force-landscape-message {
-        display: none; /* Hides the message in landscape mode */
+        display: none !important;  /* Ensures it is fully hidden */
+        visibility: hidden;  /* Ensures no space is occupied */
+        position: absolute;  /* Moves it out of view */
     }
 }
