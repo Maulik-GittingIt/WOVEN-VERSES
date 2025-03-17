@@ -188,7 +188,7 @@ nav img{
 .music_img{
     flex-basis: 32%;
     margin-bottom: 30px;
-    position: absolute ;
+    position: relative ;
     overflow: hidden;
     padding-left: 150px;
     width: 25%;
@@ -199,7 +199,7 @@ nav img{
 .tech_img{
     flex-basis: 32%;
     margin-bottom: 30px;
-    position: absolute ;
+    position: relative ;
     overflow: hidden;
     padding-left: 37px;
     padding-top: 10px;
@@ -211,7 +211,7 @@ nav img{
 .cam_img{
     flex-basis: 32%;
     margin-bottom: 30px;
-    position: absolute ;
+    position: relative ;
     overflow: hidden;
     padding-left: 37px;
     padding-top: 10px;
