@@ -370,7 +370,7 @@ nav img{
 /* Landscape Mode (Completely Remove Message) */
 @media screen and (max-width: 768px) and (orientation: landscape) {
     .force-landscape-message {
-        display: none !important;  /* Ensures it is fully hidden */
+        display: none ;  /* Ensures it is fully hidden */
         visibility: hidden;  /* Ensures no space is occupied */
         position: absolute;  /* Moves it out of view */
     }
