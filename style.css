@@ -190,7 +190,7 @@ nav img{
     margin-bottom: 30px;
     position: relative ;
     overflow: hidden;
-    padding-left: 150px;
+    padding-left: 10%;
     width: 25%;
     height: 200px;
   
@@ -201,7 +201,7 @@ nav img{
     margin-bottom: 30px;
     position: relative ;
     overflow: hidden;
-    padding-left: 37px;
+    padding-left: 2%;
     padding-top: 10px;
     width: 25%;
     height: 200px;
@@ -213,10 +213,10 @@ nav img{
     margin-bottom: 30px;
     position: relative ;
     overflow: hidden;
-    padding-left: 37px;
+    padding-left: 2%;
     padding-top: 10px;
     width: 25%;
-    height: 250px;
+    height: 200px;
     
 
 }
