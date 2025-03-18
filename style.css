@@ -413,3 +413,14 @@ nav img{
     text-align-last: center;
 
 }
+.blog_others{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    
+    padding: 12px 4px;
+    font-size: 15px;
+    background: transparent;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
